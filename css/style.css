@@ -6,15 +6,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+ body {
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto 100vw auto;
+ }
 p {
     font-size: 20px;
     color: darkgreen ;
 }
+/* footer->span*/
 #Copyright {
-    color: darkgreen;
+    color: yellow;
     font-size: 2rem;
 }
 /* header and footer*/
 header,footer {
     background-image: linear-gradient(to right,green,yellow)
+}
+footer {
+    background-image:linear-gradient(to right,green,yellow);
 }
