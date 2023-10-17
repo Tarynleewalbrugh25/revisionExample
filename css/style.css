@@ -10,3 +10,11 @@ p {
     font-size: 20px;
     color: darkgreen ;
 }
+#Copyright {
+    color: darkgreen;
+    font-size: 2rem;
+}
+/* header and footer*/
+header,footer {
+    background-image: linear-gradient(to right,green,yellow)
+}
